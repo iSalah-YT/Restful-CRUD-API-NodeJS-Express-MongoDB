@@ -81,7 +81,7 @@ app.delete('/products/:id', async (req, res) => {
 mongoose.set('strictQuery', false)
 mongoose
   .connect(
-    'mongodb+srv://kurditstation:1q2w3e4r5t@salahapi.8flimpo.mongodb.net/salah-API?retryWrites=true&w=majority'
+    'put mongodb url conect here'
   )
   .then(() => {
     app.listen(3000, () => {
